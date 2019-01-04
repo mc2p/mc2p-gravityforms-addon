@@ -1,4 +1,4 @@
-=== Gravity Forms MyChoice2Pay Add-on ===
+=== MyChoice2Pay Gravity Forms Add-on ===
 Contributors: MyChoice2Pay
 Tags: mychoice2pay, mc2p, payments, gateway, divvy, credit card, paypal, paga+tarde, redsys, bitcoin
 License: GNU General Public License v3.0
@@ -19,7 +19,7 @@ You can download an from here: https://wordpress.org/plugins/woo-gateway-mc2p/de
 Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To
 do an automatic install of, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
 
-In the search field type “Gravity Forms MyChoice2Pay Add-on” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking \"Install Now\".
+In the search field type “MyChoice2Pay Gravity Forms Add-on” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking \"Install Now\".
 
 = Manual installation =
 

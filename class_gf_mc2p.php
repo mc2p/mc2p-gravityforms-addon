@@ -19,7 +19,7 @@ GFForms::include_payment_addon_framework();
  *
  * @class 		GF_Gateway_MC2P
  * @extends		WC_Payment_Gateway
- * @version		0.1.0
+ * @version		0.1.1
  * @author 		MyChoice2Pay
  */
 
@@ -39,7 +39,7 @@ class GF_Gateway_MC2P extends GFPaymentAddOn {
     protected $_path                     = 'gravityformsmc2p/mc2p.php';
     protected $_full_path                = __FILE__;
     protected $_url                      = 'https://www.mychoice2pay.com';
-    protected $_title                    = 'Gravity Forms MyChoice2Pay Add-On';
+    protected $_title                    = 'MyChoice2Pay Gravity Forms Add-On';
     protected $_short_title              = 'MyChoice2Pay';
     protected $_supports_callbacks       = true;
     protected $_requires_credit_card     = false;

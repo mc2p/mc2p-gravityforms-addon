@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Gravity Forms MyChoice2Pay Add-on
+ * Plugin Name: MyChoice2Pay Gravity Forms Add-on
  * Plugin URI: https://github.com/mc2p/mc2p-gravity-forms-add-on
  * Description: Gravity Forms library for the MyChoice2Pay API.
  * Author: MyChoice2Pay
  * Author URI: https://www.mychoice2pay.com/
- * Version: 0.1.0
+ * Version: 0.1.1
  * Text Domain: gravityformsmc2p
  * Domain Path: /i18n/languages/
  *
@@ -21,7 +21,7 @@
  * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
  */
 
-define( 'GF_MC2P_VERSION', '0.1.0' );
+define( 'GF_MC2P_VERSION', '0.1.1' );
 
 add_action( 'gform_loaded', array( 'GF_Gateway_MC2P_Bootstrap', 'load' ), 5 );
 
