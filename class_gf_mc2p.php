@@ -433,13 +433,19 @@ class GF_Gateway_MC2P extends GFPaymentAddOn {
 			}
 		}
 
+		$email_input_id = rgar( $feed['meta'], "billingInformation_email" );
+		$email = $this->get_field_value( $form, $entry, $email_input_id );
+
         $data = array(
             "order_id" => $order_id,
             "currency" => $currency,
             "return_url"  => $return_url,
             "cancel_url" => $cancel_url,
             "notify_url" => $notify_url,
-            "products" => $products
+            "products" => $products,
+            "extra" => array(
+                "email" => $email
+            )
         );
 
         //look for discounts
