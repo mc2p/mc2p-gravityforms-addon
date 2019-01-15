@@ -411,7 +411,7 @@ class GF_Gateway_MC2P extends GFPaymentAddOn {
 		//work on products
 		if ( is_array( $line_items ) ) {
 			foreach ( $line_items as $item ) {
-				$product_name = urlencode( $item['name'] );
+				$product_name = $item['name'];
 				$quantity     = $item['quantity'];
 				$unit_price   = $item['unit_price'];
 				$product_id   = $item['id'];
