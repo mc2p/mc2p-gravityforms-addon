@@ -475,15 +475,7 @@ class GF_Gateway_MC2P extends GFPaymentAddOn {
 	}
 
 	public function return_url( $form_id, $lead_id ) {
-		$pageURL = GFCommon::is_ssl() ? 'https://' : 'http://';
-
-		$server_port = apply_filters( 'gform_mc2p_return_url_port', $_SERVER['SERVER_PORT'] );
-
-		if ( $server_port != '80' ) {
-			$pageURL .= $_SERVER['SERVER_NAME'] . ':' . $server_port . $_SERVER['REQUEST_URI'];
-		} else {
-			$pageURL .= $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-		}
+		$pageURL = get_bloginfo( 'url' ) . $_SERVER['REQUEST_URI'];
 
 		$ids_query = "ids={$form_id}|{$lead_id}";
 		$ids_query .= '&hash=' . wp_hash( $ids_query );

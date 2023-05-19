@@ -1,6 +1,8 @@
 === MyChoice2Pay Gravity Forms Add-on ===
 Contributors: MyChoice2Pay
 Tags: mychoice2pay, mc2p, payments, gateway, divvy, credit card, paypal, paga+tarde, redsys, bitcoin
+Stable tag: 0.1.3
+Tested up to: 6.2.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
